@@ -1,5 +1,6 @@
-from ple import PLE
 from ple.games.flappybird import FlappyBird
+from ple import PLE
+import numpy as np
 
 
 class Env:
