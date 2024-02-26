@@ -2,8 +2,9 @@ from ple import PLE
 from ple.games.flappybird import FlappyBird
 
 
-# Wraps PLE and Flappy Bird so that it behaves more like OpenAI Gym
 class Env:
+    """This class wraps PLE and Flappy Bird so that it behaves more like OpenAI Gym."""
+
     def __init__(self):
         # initializing the instance of FlappyBird class
         self.game = FlappyBird(pipe_gap=100)
