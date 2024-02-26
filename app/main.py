@@ -1,6 +1,6 @@
-from evolution_strategy import evolution_strategy, reward_function
-from .ann import ANN
-from .env import Env
+from package.evolution_strategy import evolution_strategy, reward_function
+from package.ann import ANN
+from package.env import Env
 import numpy as np
 import sys
 
